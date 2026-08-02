@@ -48,7 +48,7 @@
         <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar ai-fw icon-pad-right"></i>Google Scholar</a></li>
       {% endif %}
       {% if author.nasaads %}
-      <li><a href="https://ui.adsabs.harvard.edu/search/q=author%3A({{ author.ads }})"><i class="fas fa-fw fa-book-open icon-pad-right" aria-hidden="true"></i>NASA ADS</a></li>
+      <li><a href="{{ author.nasaads }}"><i class="fas fa-fw fa-book-open icon-pad-right" aria-hidden="true"></i>NASA ADS</a></li>
       {% endif %}
       {% if author.inspire-hep %}
         <li><a href="{{ author.inspire-hep }}"><i class="ai ai-inspire ai-fw icon-pad-right"></i>INSPIRE-HEP</a></li>
