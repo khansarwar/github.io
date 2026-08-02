@@ -19,7 +19,7 @@
 
   height: auto;
 
-  position: fixed;
+  position: relative;
   bottom: 0;
 
   -webkit-animation: intro 0.3s both;
@@ -40,7 +40,7 @@
     max-width: 100%;
 
     /* Reduce padding */
-    padding: 0.4em 1em;
+    padding: 0.3em 1em;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -82,7 +82,7 @@
 .page__footer-follow {
 
   /* Remove space below FOLLOW section */
-  margin-bottom: 0.3em;
+  margin-bottom: 0.1em;
 
   ul {
     margin: 0;
@@ -94,7 +94,7 @@
     display: inline-block;
 
     /* Reduce vertical padding */
-    padding: 2px 0;
+    padding: 1px 0;
 
     font-family: $sans-serif-narrow;
     font-size: $type-size-6;
