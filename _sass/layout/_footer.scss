@@ -79,4 +79,41 @@
   margin: 0;
   padding: 0;
 }
+.page__footer-follow {
 
+  /* Remove space below FOLLOW section */
+  margin-bottom: 0.3em;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  li {
+    display: inline-block;
+
+    /* Reduce vertical padding */
+    padding: 2px 0;
+
+    font-family: $sans-serif-narrow;
+    font-size: $type-size-6;
+    text-transform: uppercase;
+  }
+
+  li + li:before {
+    content: "";
+    padding-right: 5px;
+  }
+
+  a {
+    padding-right: 10px;
+    font-weight: bold;
+  }
+
+  .social-icons {
+    a {
+      white-space: nowrap;
+    }
+  }
+}
