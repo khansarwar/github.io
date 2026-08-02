@@ -36,4 +36,44 @@
     "layout/archive",
     "layout/sidebar",
     "layout/json_cv"
+
+   /* Add to your main stylesheet */
+.about-hero {
+  position: relative;
+  background-image: url('/assets/images/about_me1.png'); /* update path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 60vh;               /* adjust height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  padding: 4rem 1rem;
+  overflow: hidden;
+}
+
+/* dim/blur overlay so text is readable */
+.about-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;                       /* top:0; right:0; bottom:0; left:0; */
+  background: rgba(0,0,0,0.45);   /* tweak opacity/color */
+  z-index: 1;
+}
+
+/* content sits above overlay */
+.about-hero .hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 900px;
+  padding: 1rem;
+}
+
+/* small-screen adjustments */
+@media (max-width: 600px) {
+  .about-hero { padding: 3rem 1rem; min-height: 50vh; }
+  .about-hero h1 { font-size: 1.6rem; }
+}
 ;
