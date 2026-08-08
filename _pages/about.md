@@ -11,11 +11,7 @@ layout: page
     <p>Short intro text that appears on top of the background...</p>
   </div>
 </div>
-<div style="background-image: url('https://media.wbur.org/wp/2022/07/main_image_star-forming_region_carina_nircam_final-5mb.jpeg');
-            background-size: cover;
-            padding: 50px;
-            color: white;
-            font-size: 20px;">
+<div style="background-image: url('https://media.wbur.org/wp/2022/07/main_image_star-forming_region_carina_nircam_final-5mb.jpeg');background-size: cover;padding: 50px;color: white;font-size: 20px;">
     Hello
 </div>
 This is a sample text.
