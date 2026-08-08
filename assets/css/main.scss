@@ -40,7 +40,7 @@
    .about-hero {
      position: relative;
      background-image: url('/images/about_me1.png'); /* <- place your file at /images/about-bg.jpg */
-     background-size: cover;
+     background-size: cover 65%;
      background-position: center;
      background-repeat: no-repeat;
      min-height: 60vh;
