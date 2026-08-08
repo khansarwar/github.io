@@ -1,15 +1,12 @@
 ---
 title: "About Me"
-author_profile: true
 layout: page
 ---
 
-<div class="about-hero">
-  <div class="hero-content">
-    <h1>About Me</h1>
-    <p>Short intro text that appears on top of the background...</p>
-  </div>
-</div>
-<div style="background-color: blue; padding: 50px; color: white;">
-    <h2>Hello</h2>
+<h1 style="color: red;">TEST</h1>
+
+<p style="color: blue;">Hello, this is a test.</p>
+
+<div style="background-color: yellow; padding: 30px;">
+    <h2>THIS SHOULD HAVE A YELLOW BACKGROUND</h2>
 </div>
