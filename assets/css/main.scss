@@ -40,7 +40,7 @@
    .about-hero {
      position: relative;
      background-image: url('/images/about_me1.png'); /* <- place your file at /images/about-bg.jpg */
-     background-size: cover 65%;
+     background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
      min-height: 60vh;
@@ -49,7 +49,9 @@
      justify-content: center;
      color: #fff;
      text-align: center;
-     padding: 4rem 1rem;
+
+      
+     padding: 4rem 1rem 4rem 5rem;
      overflow: hidden;
    }
 ;
