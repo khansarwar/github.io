@@ -35,12 +35,13 @@
     "layout/page",
     "layout/archive",
     "layout/sidebar",
-    "layout/json_cv"
+    "layout/json_cv";
 
 .about-hero {
   position: relative;
   background-image: url('/images/about_me1.png');
   background-size: cover;
+  background-position: center; 
   background-repeat: no-repeat;
   min-height: 60vh;
   display: flex;
@@ -48,8 +49,6 @@
   justify-content: center;
   color: #fff;
   text-align: center;
-  
-  /* Adds space on the left side of the container */
-  padding: 4rem 1rem 4rem 5rem; /* top, right, bottom, left */
+  padding: 4rem 1rem; 
   overflow: hidden;
 }
