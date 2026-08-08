@@ -37,27 +37,4 @@
     "layout/sidebar",
     "layout/json_cv";
 
-   .about-hero {
-  position: relative;
-  
-  /* Creates a transparent/solid gap on the left, then shows the image */
-  background-image: 
-    linear-gradient(to right, #ffffff 40%, transparent 40%), 
-    url('/images/about_me1.png');
-    
-  /* Positions the image only in its remaining space on the right */
-  background-position: left, right;
-  background-size: auto, cover;
-  background-repeat: no-repeat;
-  
-  min-height: 60vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  text-align: center;
-  
-  /* Restores your original height padding */
-  padding: 4rem 1rem; 
-  overflow: hidden;
-}
+
