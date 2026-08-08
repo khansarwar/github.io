@@ -18,5 +18,6 @@ layout: page
             font-size: 20px;">
     Hello
 </div>
+This is a sample text.
 
 <!-- rest of your about page content goes here -->
